@@ -1,0 +1,62 @@
+body {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color:#304D6D;
+}
+
+#names {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    padding: 5%;
+}
+
+#names > span {
+    background-color: #A7CCED;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.email {
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.name, .email {
+    justify-self: center;
+    padding: 1%;
+    width: 50%;
+}
+
+
+.button {
+   background-color: #63ADF2;
+   padding: 1%;
+   width: 20%;
+   border-color: transparent;
+   border-radius: 4%;
+   margin-left: auto;
+}
+
+#posts {
+    background-color: teal;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#posts > .post-item {
+    width: 40%;
+    padding: 3%;
+    margin: auto;
+    font-size: 15px;
+}
