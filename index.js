@@ -7,7 +7,7 @@ async function fetchUserData() {
 async function fetchPostsData() {
     let res = await fetch('https://jsonplaceholder.typicode.com/posts');
     let data = await res.json();
-    return data
+    return data;
 }
 
 async function showPostData(userId, parentTag) {
